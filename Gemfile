@@ -34,7 +34,7 @@ gem 'cancan'
 gem 'ransack'
 
 #market search
-gem 'market_bot'
+gem 'market_bot', '>= 0.12.0'
 #Image processing/attachments
 gem 'paperclip'
 gem 'aws-sdk'
@@ -118,7 +118,7 @@ group :test do
   gem 'database_cleaner'
   #gem 'selenium-webdriver'
   gem "capybara"
-  gem "guard-rspec", "~> 4.2.8"
+  gem "guard-rspec", "~> 4.2.10"
   gem 'shoulda'
   gem 'activerecord-nulldb-adapter'
 end
