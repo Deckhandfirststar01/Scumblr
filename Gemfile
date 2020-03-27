@@ -8,7 +8,7 @@ gem 'rails', '4.0.9'
 
 #For Search Providers
 gem 'google-api-client'
-gem 'twitter'
+gem 'twitter', '>= 6.0.0'
 gem 'koala'
 
 #Database gems
@@ -37,7 +37,7 @@ gem 'ransack'
 gem 'market_bot'
 #Image processing/attachments
 gem 'paperclip'
-gem 'aws-sdk'
+gem 'aws-sdk', '>= 1.52.0'
 
 
 #Nice select fields
@@ -50,8 +50,8 @@ gem 'oj'
 gem 'activerecord-import'
 
 #Used for task queueing
-gem 'sidekiq'
-gem 'sidekiq-status'
+gem 'sidekiq', '>= 3.0.2'
+gem 'sidekiq-status', '>= 0.5.0'
 
 #Pagination
 gem 'kaminari'
@@ -136,7 +136,7 @@ gem 'sass-rails',   '~> 4.0.0'
 gem 'coffee-rails', '~> 4.0.0'
 
 
-gem 'uglifier'
+gem 'uglifier', '>= 2.5.3'
 # Remove 4.0 end
 
 gem 'jquery-rails'
