@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.9'
+gem 'rails', '5.2.4.3'
 
 
 #Support for attr_accessible
@@ -21,7 +21,7 @@ gem 'pg'
 gem 'omniauth-saml'
 
 #Workflow
-gem 'workflowable'
+gem 'workflowable', '>= 1.0.1'
 
 #JIRA Integration
 #gem 'jira-ruby', require: "jira"
@@ -31,12 +31,12 @@ gem 'jiralicious'
 gem 'cancan'
 
 #Searching
-gem 'ransack'
+gem 'ransack', '>= 1.2.3'
 
 #market search
 gem 'market_bot'
 #Image processing/attachments
-gem 'paperclip'
+gem 'paperclip', '>= 4.2.0'
 gem 'aws-sdk'
 
 
@@ -47,14 +47,14 @@ gem "select2-rails"
 gem 'oj'
 
 #Bulk edits
-gem 'activerecord-import'
+gem 'activerecord-import', '>= 0.5.0'
 
 #Used for task queueing
 gem 'sidekiq'
 gem 'sidekiq-status'
 
 #Pagination
-gem 'kaminari'
+gem 'kaminari', '>= 0.16.1'
 
 #Sidekiq UI
 gem 'sinatra', require: false
@@ -64,27 +64,27 @@ gem 'slim'
 
 #Performance gem that changes how links are handed
 ##gem 'turbolinks'
-gem 'jquery-turbolinks'
+gem 'jquery-turbolinks', '>= 2.0.2'
 
 #Allowing exporting/importing data into database
 gem 'yaml_db'
 
 
 #Authentication
-gem 'devise'
+gem 'devise', '>= 4.4.2'
 
 #Comments
-gem 'acts_as_commentable_with_threading'
+gem 'acts_as_commentable_with_threading', '>= 1.2.0'
 
 #JSON API Calls
-gem "active_model_serializers"
+gem "active_model_serializers", ">= 0.8.1"
 
 
 #gem 'active_scaffold'
 gem "therubyracer"
-gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
-gem 'simple_form'
-gem 'foundation-rails'
+gem "less-rails" , ">= 2.5.0" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem 'simple_form', '>= 4.0.0'
+gem 'foundation-rails', '>= 5.3.3.0'
 #gem 'jquery-datatables-rails', git: 'git://github.com/rweng/jquery-datatables-rails.git'
 gem 'unicorn'
 gem 'unicorn-rails'
@@ -94,12 +94,12 @@ group :development do
   gem 'quiet_assets'
   gem "ruby-prof"
   gem "better_errors"
-  gem 'meta_request'
+  gem 'meta_request', '>= 0.5.0'
   gem "binding_of_caller"
-  gem "bullet"
+  gem "bullet", ">= 4.13.1"
   #gem 'rails-footnotes'
   #gem 'rails-footnotes', github: 'josevalim/rails-footnotes', branch: 'release-4.0'
-  gem 'rails-footnotes', '>= 4.0.0', '<5'
+  gem 'rails-footnotes', '>= 4.0.2', '< 5'
   gem 'railroady'
   gem 'ruby_gntp'
   gem 'pry'
@@ -108,8 +108,8 @@ end
 
 #Testing
 group :development, :test do
-  gem 'rspec-rails'
-  gem 'factory_girl_rails'
+  gem 'rspec-rails', '>= 3.0.2'
+  gem 'factory_girl_rails', '>= 4.4.1'
 
 end
 
@@ -119,8 +119,8 @@ group :test do
   #gem 'selenium-webdriver'
   gem "capybara"
   gem "guard-rspec", "~> 4.2.8"
-  gem 'shoulda'
-  gem 'activerecord-nulldb-adapter'
+  gem 'shoulda', '>= 3.5.0'
+  gem 'activerecord-nulldb-adapter', '>= 0.3.1'
 end
 
 
@@ -132,14 +132,14 @@ end
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 #gem 'therubyracer', :platforms => :ruby
-gem 'sass-rails',   '~> 4.0.0'
-gem 'coffee-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 5.0.5'
+gem 'coffee-rails', '~> 4.2.2'
 
 
 gem 'uglifier'
 # Remove 4.0 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.1'
 
 gem 'rb-readline'
 
