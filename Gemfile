@@ -21,7 +21,7 @@ gem 'pg'
 gem 'omniauth-saml'
 
 #Workflow
-gem 'workflowable'
+gem 'workflowable', '>= 1.0'
 
 #JIRA Integration
 #gem 'jira-ruby', require: "jira"
@@ -139,7 +139,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'uglifier'
 # Remove 4.0 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 3.1.3'
 
 gem 'rb-readline'
 
