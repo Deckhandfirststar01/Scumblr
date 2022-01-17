@@ -64,7 +64,7 @@ gem 'slim'
 
 #Performance gem that changes how links are handed
 ##gem 'turbolinks'
-gem 'jquery-turbolinks'
+gem 'jquery-turbolinks', '>= 2.0.2'
 
 #Allowing exporting/importing data into database
 gem 'yaml_db'
