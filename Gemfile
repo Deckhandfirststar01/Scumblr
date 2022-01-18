@@ -36,7 +36,7 @@ gem 'ransack'
 #market search
 gem 'market_bot'
 #Image processing/attachments
-gem 'paperclip'
+gem 'paperclip', '>= 5.2.1'
 gem 'aws-sdk'
 
 
