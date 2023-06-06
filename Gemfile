@@ -139,7 +139,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'uglifier'
 # Remove 4.0 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.4.0'
 
 gem 'rb-readline'
 
