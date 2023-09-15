@@ -50,7 +50,7 @@ gem 'oj'
 gem 'activerecord-import'
 
 #Used for task queueing
-gem 'sidekiq'
+gem 'sidekiq', '>= 7.1.3'
 gem 'sidekiq-status'
 
 #Pagination
