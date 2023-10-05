@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.9'
+gem 'rails', '7.1.0'
 
 
 #Support for attr_accessible
@@ -21,7 +21,7 @@ gem 'pg'
 gem 'omniauth-saml'
 
 #Workflow
-gem 'workflowable'
+gem 'workflowable', '>= 1.0.1'
 
 #JIRA Integration
 #gem 'jira-ruby', require: "jira"
@@ -31,7 +31,7 @@ gem 'jiralicious'
 gem 'cancan'
 
 #Searching
-gem 'ransack'
+gem 'ransack', '>= 1.3.0'
 
 #market search
 gem 'market_bot'
@@ -54,7 +54,7 @@ gem 'sidekiq'
 gem 'sidekiq-status'
 
 #Pagination
-gem 'kaminari'
+gem 'kaminari', '>= 0.16.2'
 
 #Sidekiq UI
 gem 'sinatra', require: false
@@ -64,14 +64,14 @@ gem 'slim'
 
 #Performance gem that changes how links are handed
 ##gem 'turbolinks'
-gem 'jquery-turbolinks'
+gem 'jquery-turbolinks', '>= 2.1.0'
 
 #Allowing exporting/importing data into database
 gem 'yaml_db'
 
 
 #Authentication
-gem 'devise'
+gem 'devise', '>= 4.7.0'
 
 #Comments
 gem 'acts_as_commentable_with_threading'
@@ -82,24 +82,24 @@ gem "active_model_serializers"
 
 #gem 'active_scaffold'
 gem "therubyracer"
-gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
-gem 'simple_form'
-gem 'foundation-rails'
+gem "less-rails" , ">= 2.6.0" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem 'simple_form', '>= 4.0.0'
+gem 'foundation-rails', '>= 5.4.0.0'
 #gem 'jquery-datatables-rails', git: 'git://github.com/rweng/jquery-datatables-rails.git'
 gem 'unicorn'
 gem 'unicorn-rails'
 gem 'ip'
 
 group :development do
-  gem 'quiet_assets'
+  gem 'quiet_assets', '>= 1.1.0'
   gem "ruby-prof"
-  gem "better_errors"
-  gem 'meta_request'
+  gem "better_errors", ">= 2.3.0"
+  gem 'meta_request', '>= 0.4.0'
   gem "binding_of_caller"
   gem "bullet"
   #gem 'rails-footnotes'
   #gem 'rails-footnotes', github: 'josevalim/rails-footnotes', branch: 'release-4.0'
-  gem 'rails-footnotes', '>= 4.0.0', '<5'
+  gem 'rails-footnotes', '>= 4.1.0', '< 5'
   gem 'railroady'
   gem 'ruby_gntp'
   gem 'pry'
@@ -108,8 +108,8 @@ end
 
 #Testing
 group :development, :test do
-  gem 'rspec-rails'
-  gem 'factory_girl_rails'
+  gem 'rspec-rails', '>= 3.1.0'
+  gem 'factory_girl_rails', '>= 4.5.0'
 
 end
 
@@ -132,14 +132,14 @@ end
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 #gem 'therubyracer', :platforms => :ruby
-gem 'sass-rails',   '~> 4.0.0'
-gem 'coffee-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 5.0.8'
+gem 'coffee-rails', '~> 4.2.2'
 
 
 gem 'uglifier'
 # Remove 4.0 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.1'
 
 gem 'rb-readline'
 
