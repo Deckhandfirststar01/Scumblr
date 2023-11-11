@@ -21,7 +21,7 @@ gem 'pg'
 gem 'omniauth-saml'
 
 #Workflow
-gem 'workflowable'
+gem 'workflowable', '>= 1.0.1'
 
 #JIRA Integration
 #gem 'jira-ruby', require: "jira"
