@@ -57,7 +57,7 @@ gem 'sidekiq-status'
 gem 'kaminari'
 
 #Sidekiq UI
-gem 'sinatra', require: false
+gem 'sinatra', '>= 4.0.0', require: false
 
 #Templating language, not sure if used
 gem 'slim'
