@@ -54,7 +54,7 @@ gem 'sidekiq'
 gem 'sidekiq-status'
 
 #Pagination
-gem 'kaminari'
+gem 'kaminari', '>= 0.16.2'
 
 #Sidekiq UI
 gem 'sinatra', require: false
@@ -94,7 +94,7 @@ group :development do
   gem 'quiet_assets'
   gem "ruby-prof"
   gem "better_errors"
-  gem 'meta_request'
+  gem 'meta_request', '>= 0.4.3'
   gem "binding_of_caller"
   gem "bullet"
   #gem 'rails-footnotes'
