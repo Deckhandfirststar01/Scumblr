@@ -18,7 +18,7 @@ gem 'pg'
 #OneLogin Authenticatable
 #gem 'devise_saml_authenticatable'
 #gem 'ruby-saml'
-gem 'omniauth-saml'
+gem 'omniauth-saml', '>= 1.3.0'
 
 #Workflow
 gem 'workflowable'
@@ -34,10 +34,10 @@ gem 'cancan'
 gem 'ransack'
 
 #market search
-gem 'market_bot'
+gem 'market_bot', '>= 0.12.1'
 #Image processing/attachments
 gem 'paperclip'
-gem 'aws-sdk'
+gem 'aws-sdk', '>= 1.52.0'
 
 
 #Nice select fields
@@ -54,7 +54,7 @@ gem 'sidekiq'
 gem 'sidekiq-status'
 
 #Pagination
-gem 'kaminari'
+gem 'kaminari', '>= 0.16.2'
 
 #Sidekiq UI
 gem 'sinatra', require: false
@@ -94,7 +94,7 @@ group :development do
   gem 'quiet_assets'
   gem "ruby-prof"
   gem "better_errors"
-  gem 'meta_request'
+  gem 'meta_request', '>= 0.4.3'
   gem "binding_of_caller"
   gem "bullet"
   #gem 'rails-footnotes'
@@ -117,7 +117,7 @@ group :test do
   #gem 'cucumber-rails', require: false
   gem 'database_cleaner'
   #gem 'selenium-webdriver'
-  gem "capybara"
+  gem "capybara", ">= 2.4.2"
   gem "guard-rspec", "~> 4.2.8"
   gem 'shoulda'
   gem 'activerecord-nulldb-adapter'
