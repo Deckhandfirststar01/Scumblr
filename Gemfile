@@ -37,7 +37,7 @@ gem 'ransack'
 gem 'market_bot'
 #Image processing/attachments
 gem 'paperclip'
-gem 'aws-sdk'
+gem 'aws-sdk', '>= 1.52.0'
 
 
 #Nice select fields
