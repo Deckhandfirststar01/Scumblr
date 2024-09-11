@@ -18,7 +18,7 @@ gem 'pg'
 #OneLogin Authenticatable
 #gem 'devise_saml_authenticatable'
 #gem 'ruby-saml'
-gem 'omniauth-saml'
+gem 'omniauth-saml', '>= 2.1.1'
 
 #Workflow
 gem 'workflowable'
