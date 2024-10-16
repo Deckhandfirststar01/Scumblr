@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.9'
+gem 'rails', '7.0.0'
 
 
 #Support for attr_accessible
@@ -31,7 +31,7 @@ gem 'jiralicious'
 gem 'cancan'
 
 #Searching
-gem 'ransack'
+gem 'ransack', '>= 2.3.1'
 
 #market search
 gem 'market_bot'
@@ -54,7 +54,7 @@ gem 'sidekiq'
 gem 'sidekiq-status'
 
 #Pagination
-gem 'kaminari'
+gem 'kaminari', '>= 1.0.0'
 
 #Sidekiq UI
 gem 'sinatra', require: false
@@ -84,7 +84,7 @@ gem "active_model_serializers"
 gem "therubyracer"
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem 'simple_form'
-gem 'foundation-rails'
+gem 'foundation-rails', '>= 6.5.1.0'
 #gem 'jquery-datatables-rails', git: 'git://github.com/rweng/jquery-datatables-rails.git'
 gem 'unicorn'
 gem 'unicorn-rails'
@@ -99,7 +99,7 @@ group :development do
   gem "bullet"
   #gem 'rails-footnotes'
   #gem 'rails-footnotes', github: 'josevalim/rails-footnotes', branch: 'release-4.0'
-  gem 'rails-footnotes', '>= 4.0.0', '<5'
+  gem 'rails-footnotes', '~> 7.0'
   gem 'railroady'
   gem 'ruby_gntp'
   gem 'pry'
@@ -132,7 +132,7 @@ end
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 #gem 'therubyracer', :platforms => :ruby
-gem 'sass-rails',   '~> 4.0.0'
+gem 'sass-rails', '~> 6.0.0'
 gem 'coffee-rails', '~> 4.0.0'
 
 
