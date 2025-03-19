@@ -31,7 +31,7 @@ gem 'jiralicious'
 gem 'cancan'
 
 #Searching
-gem 'ransack'
+gem 'ransack', '>= 4.0.0'
 
 #market search
 gem 'market_bot'
